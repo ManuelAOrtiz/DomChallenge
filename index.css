@@ -1,11 +1,27 @@
- Volume in drive D has no label.
- Volume Serial Number is 0B8B-16F9
-
- Directory of D:\Class\Assignments\DomChallenge
-
-09/21/2018  04:55 PM    <DIR>          .
-09/21/2018  04:55 PM    <DIR>          ..
-09/21/2018  04:55 PM                 0 index.css
-09/21/2018  04:55 PM               359 index.html
-               2 File(s)            359 bytes
-               2 Dir(s)  992,023,048,192 bytes free
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr .5fr;
+	width: 80%;
+	margin: 0 auto;
+}
+button{
+	height: 150px;
+	margin: 20%;
+}
+#buttonOne{
+	background-color: red; 
+}
+#buttonTwo{
+	background-color: blue;
+}
+.iAmRight{
+	text-align: center;
+	font-size: 40px;
+}
+#buttonOneText{
+	color:red;
+}
+#buttonTwoText{
+	color: blue;
+}
