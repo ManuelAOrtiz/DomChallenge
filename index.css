@@ -5,6 +5,24 @@
 	width: 80%;
 	margin: 0 auto;
 }
+.navbar ul{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	
+}
+.navbar li{
+	background-color: lightgrey;
+	border: 2px solid;
+	font-size: 3em;
+
+}
+.navbar li a{
+	text-decoration: none;
+	color: black;
+}
 button{
 	height: 150px;
 	margin: 20%;
@@ -20,8 +38,45 @@ button{
 	font-size: 40px;
 }
 #buttonOneText{
-	color:red;
+	color:white;
 }
 #buttonTwoText{
-	color: blue;
+	color: white;
+}
+.dontHover{
+	height: 200px;
+	width: 40%;
+	margin: 0 auto;
+	border:2px solid;
+	background-color: lightblue;
+	margin-top: 10%;
+	text-align: center;
+	padding: 10% 10%;
+	font-size: 3em;
+	font-weight: bold;
+}
+.keyPress{
+	font-size: 40px;
+	margin:0 auto;
+	margin-top: 30%;
+	width: 50%;
+	text-align: center;
+}
+#keyPressShown{
+	margin-left: 50%;
+	font-size: 10em;
+}
+.formBodyWrapper{
+	margin-top: 5%;
+	height: 300px;
+}
+.formWrapper{
+	width:80%;
+	margin:0 auto;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 400px;
+}
+#userVerification{
+	margin-left: 30px;
 }

@@ -1,11 +1,12 @@
-var buttonOne = document.GetElementById("buttonOne");
-var buttonTwo = document.GetElementById("buttonTwo");
-var buttonOneText = document.GetElementById("buttonOneText");
-var buttonTwoText = document.GetElementById("buttonTwoText");
+var buttonOne = document.getElementById("buttonOne");
+var buttonTwo = document.getElementById("buttonTwo");
+var buttonOneText = document.getElementById("buttonOneText");
+var buttonTwoText = document.getElementById("buttonTwoText");
 
 
 function buttonOneWordChanger(){
-	buttonTwoWordChanger.style.fot
+	buttonTwoText.style.color = "white";
+	buttonOneText.style.color = "red"
 }
 function buttonTwoWordChanger(){
 	buttonOneText.style.color = "white";
