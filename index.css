@@ -38,10 +38,10 @@ button{
 	font-size: 40px;
 }
 #buttonOneText{
-	color:white;
+	font-size: 0;
 }
 #buttonTwoText{
-	color: white;
+	font-size: 0
 }
 .dontHover{
 	height: 200px;
